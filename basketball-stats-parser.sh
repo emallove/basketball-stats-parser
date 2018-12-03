@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# sh -x /Users/hmdcadministrator/bin/ethan-mallove-basketball-stats-parser.sh 
+# sh -x basketball-stats-parser.sh
 
-file="/Users/hmdcadministrator/Documents//winchester_vs_sudbury-d2__abbrev.txt"
+file="sample-stats-file.txt"
 
 for variable in words; do
 
