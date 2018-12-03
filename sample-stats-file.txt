@@ -1,0 +1,319 @@
+vs. Sehmesi 12/02/2018 12:30 pm
+
+Wuxqykdwks home
+Sehmesi away
+
+ROSTER:
+
+BR   B   B   Bskxhjx   Rcdd          12
+CP   V   V   Cjvoux    Pjrjx         2
+JL   D   U   Jehk      Ljxfkjs       14
+JD   J   J   Jcyx      Dknuqyjkvud   5
+JP   K   K   Jjqzdcx   Pjrjx         4
+JM   L   L   Jevujx    Mjvvcok       32
+MH   M   M   Mjwwyka   He            20
+NK   N   N   Nkh       Ksjfw         25
+OS   O   O   Oakx      Swkdxki       11
+CB   R   R   Ccxcs     Bskxxjx       44
+SP   S   S   Scskx     Pjwkv         33
+TL   T   T   Tycnjd    Ljnbksw       1
+WG   W   W   Wuvv      Guxhkv        10
+
+?    ?   Opposing team player
+
+ACTION:
+
+-: missed field goal
+f,F: missed,made free throw
+m,M: missed,made field goal
+h,H: missed,made 3-point field goal
+a: assist
+b: block
+d: defensive rebound
+L: foul
+f: missed free throw
+f: away-from-the-ball foul
+f: blocking foul
+f: shooting foul
+o: offensive rebound
+s: steal
+t: turnover
+f,F: missed,made free throw
+h,H: tHree,heave -- missed,made 3-pointer
+
+
+play format: player.action[,action,...];
+
+// in m jm k o cb
+
+?.M;
+
+o.m;
+?.d;
+?.t;
+jm.t;
+jm.L;
+?.m;
+m.d;
+m.h;
+o.d;
+m.h;
+jm.o;
+k.ff;
+?.d;
+?.a,M;
+jm.a; cb.M;
+?.t;
+o.a;
+cb.M;
+cb.d;
+?.m;
+?.m;
+?.m;?.o,o;
+
+?.h,o,h;
+k.a;
+m.FF;
+
+jm.d;
+wg.t;
+?.s;
+?.M;
+m.m,o;
+jd.t;
+?.
+
+jd.s;
+
+jd.m;
+wg.o
+?.m;
+br.d;
+
+wg.m;
+?.a,M;
+?.s;
+br.t;
+?.H;
+m.M;
+jm.L;
+?.fF;
+cb.M;
+o.a;
+?.m,o,o,m;
+jm.d;
+
+// 2q
+
+// in o k m jm cb
+
+m.t;
+?.m;
+?.a,M;
+jm.t;
+?.m
+jm.d;
+k.M;
+k.s;
+m.m;
+
+//TO: 637  12-14
+
+// in m o k jd cb s/jm;
+
+?.t;
+o.m,o,m;
+jd.d;
+
+jd.m;
+?.d/;
+
+?.m;o.d;
+m.m,o;
+k.m;
+
+t.h;
+?.d;
+jd.s;
+t.m;
+
+m.L;
+?.L;
+
+o.m,m.o;
+o.t;
+m.MF;
+jd.s,a;
+?.a,M,f;
+m.d;
+m.m
+?.d;
+
+?.m;
+wg.d;
+?.L;
+wg.F,f;
+?.d;
+m.s;
+cb.t;
+
+// s/jd/s;
+
+?.?.m,o,m;
+wg.d;
+wg.L;
+
+// 16-16 222s
+
+?.t;
+t.L;
+
+# s/br s
+
+?.?.m,d,t;
+
+cb.t;
+?.M;
+t.t;
+?.h,o,h;
+cb.d;
+wg.M;
+?.h;
+
+# 3q: 18-19
+
+?.t;
+k.s,m;
+jd.L
+br.H;
+?.m,o,M;
+k.t;
+?.t
+k.s
+
+br.h,;
+o.o,m;
+br.t;
+?.t;
+o.t;
+
+# TO: 21-21
+# br m wg jd k
+
+m.s
+jd.F,F;
+
+# s/br/jm;
+
+?.m
+jd.d;
+
+# s/ t s cb / k m jd
+jm.m;
+
+?.m;
+cb.d;
+jm.t;
+
+?.
+?.m;
+cb.d;
+jm.t;
+?.m,o;
+?.L;
+s.h;
+?.d;
+?.t;
+k.t;
+?.M:
+cb.a;
+wg.M;
+?.H;
+
+t.h;
+s.o;
+wg.L;
+
+
+?.m;
+wg.d;
+cb.m;
+k.s; k.M;
+?.h;
+t.d;
+jd.M;
+k.s;
+?.m;
+wg.d;
+
+# 4q  29-26
+
+jd.t;
+
+?.m;
+jd.h;
+?.d
+?.H;
+
+s.m;
+cb.m,o;
+
+?.h,o,M,
+
+# s/s o/ m br
+?.f;
+cb.d;
+cb.t;
+
+# s/ /
+# TO: 6:18 29-31
+
+?.M;
+jm.m;
+?.t;
+W.t;
+?.M;
+jm.t;
+# s/jm/k;
+?.t;
+cb.t;
+
+# s/cb/wg/
+# TO: 29-35
+?.H
+k.o,M;
+t.h;
+?.t;
+m.m;
+br.h;
+m.o;
+wg.f,F;
+?.t;
+m.t;
+br.s;
+t.h;
+?.F,F;
+wg.M;
+k.s
+jd.M;
+?.m,o,h;
+wg.d;
+?.L;
+t.h;
+k.o,m
+jd.o
+?.t;
+k.m;
+?.m,o,
+k.f
+?.d;
+wg.s;
+k.h
+m.o
+jd.h
+
+# TO:  36-40
+
+?.F,f
+m.d;
+
