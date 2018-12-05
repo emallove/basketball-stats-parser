@@ -4,8 +4,6 @@
 
 file="sample-stats-file.txt"
 
-for variable in words; do
-
   #   m Bskxhjx Rcdd
   echo Bgmkopk Reqq 2P
   ack --all '^b.*[M]\b' $file | wc -l
@@ -552,5 +550,3 @@ for variable in words; do
   #   \? opponent
   echo cbbcxkxw PF
   ack --all '^\?.*[L]\b' $file | wc -l
-
-done
